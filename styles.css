@@ -1,66 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary: #FFD55E;
-    --black: #333333;
+  --primary: #ffd55e;
+  --black: #333333;
 }
 
-
-body{
-    text-align: center;
-    align-items: center;
-    font-family: "kalam";
-    color: var(--black);
+body {
+  text-align: center;
+  align-items: center;
+  font-family: "kalam";
+  color: var(--black);
 }
 
-nav{
-    background-color: var(--primary);
+nav {
+  background-color: var(--primary);
 }
 
 textarea {
-    width: 80%;
-    height: 10vh;
-    margin: 2rem;
-    padding: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "kalam";
+  width: 80%;
+  height: 10vh;
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "kalam";
 }
 
-#btn-translate{
-    font-family: "kalam";
-    background-color: var(--primary);
-    border: none;
-    margin: 1rem 0rem;
-    padding: 1rem 2rem;
-    font-family: "Kalam";
-    font-size: large;
+#btn-translate {
+  font-family: "kalam";
+  background-color: var(--primary);
+  border: none;
+  margin: 0.8rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam";
+  font-size: large;
 }
 
 #output {
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  margin: 0.8rem;
+  padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-footer{
-    background-color : #FFD55E;
-    margin-top: 3rem;
+footer {
+  background-color: #ffd55e;
+  margin-top: 2rem;
 }
 
-footer p{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
+footer p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+
+.footer-list {
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+i {
+  color: black;
 }
